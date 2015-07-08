@@ -4,6 +4,29 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*CUSTOM CSS*/
+
+div#logo-background {
+  background-color: rgba(40,40,40,.9);
+  height: 26%;
+  width: 85%;
+  position: absolute;
+  transform: rotate(-1deg);
+  z-index: 0;
+  top: 9.2%;
+  left: 7%;
+}
+
+img.logo {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  top: 0px;
+  left: 10%;
+}
+
+/*CUSTOM CSS END*/
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
