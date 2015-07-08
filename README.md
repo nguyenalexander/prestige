@@ -1,27 +1,21 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+#Prestige Agency website prototype#
+##by Crown Social Agency##
 
-## Getting Started
+##[Bootstrap template](http://startbootstrap.com/template-overviews/agency/)##
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+##[Materialize CSS framework](http://materializecss.com/)##
 
-## Bugs and Issues
+##[Scrolling functionality](http://www.alvarotrigo.com/fullPage/)##
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+##[Tubular background embedded video](http://www.seanmccambridge.com/tubular/)##
 
-## Creator
+See comment in tubular.js.
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+##[Formspree](https://formspree.io/)##
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+After changing email address in index.html contact form, remember to send initial message for Formspree confirmation.
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Founder and CEO: [Zach Huntting](mailto:zach@crownsocial.com)
 
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-agency/blob/gh-pages/LICENSE) license.
-# prestige
+Web Developers: [Bennett Lin](http://bennettslin.com) and [Alexander Nguyen](http://nguyenalexander.com)
