@@ -1,0 +1,16 @@
+#tubular-overlay {
+  background-color: rgba(255, 0, 0, 0.5);
+  position: fixed;
+  z-index: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+#tubular-player {
+  animation: fadein 10s ease-in;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
