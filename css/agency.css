@@ -25,6 +25,28 @@ img.logo {
   left: 10%;
 }
 
+a.waves-effect.waves-dark.btn.modal-trigger {
+  position: absolute;
+  right: 1%;
+  top: 70%;
+  background-color: transparent;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 235, .99);
+  padding: 0;
+  max-height: 90%;
+  width: 80%;
+  margin: auto;
+  overflow-y: auto;
+  border-radius: 2px;
+  will-change: top, opacity;
+}
+
 /*CUSTOM CSS END*/
 
 body {

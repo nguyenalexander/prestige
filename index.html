@@ -36,6 +36,7 @@
 </head>
 
 <body class="index">
+    <a class="waves-effect waves-dark btn modal-trigger" href="#contactModal">Contact</a>
     <div id="fullpage">
         <div id="tubular-overlay"></div>
         <!-- Header -->
@@ -155,47 +156,49 @@
                 </div>
             </div>
         </div>
+    </div>
 
+    <!-- Modals -->
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
         <!-- Contact Section -->
-        <div id="contact" class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col l12 text-center">
-                        <h2 class="section-heading">Contact Us</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                    </div>
+            <div class="row">
+                <div class="col l12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <div class="row">
-                    <div class="col l12">
-                        <form action="http://formspree.io/bennett@crownsocial.com" method="POST" name="sentMessage" id="contactForm" novalidate>
-                            <div class="row">
-                                <div class="col m6">
-                                    <div class="input-field">
-                                        <input type="text" class="validate" name="name" id="name">
-                                        <label for="name">Name</label>
-                                    </div>
-                                    <div class="input-field">
-                                        <input type="email" class="validate" name="email" id="email">
-                                        <label for="email" data-error="Not a valid email.">Email</label>
-                                    </div>
+            </div>
+            <div class="row">
+                <div class="col l12">
+                    <form action="http://formspree.io/bennett@crownsocial.com" method="POST" name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col m6">
+                                <div class="input-field">
+                                    <input type="text" class="validate" name="name" id="name">
+                                    <label for="name">Name</label>
                                 </div>
-                                <div class="col m6">
-                                    <div class="input-field">
-                                        <textarea class="validate materialize-textarea" name="message" id="message"></textarea>
-                                        <label for="message">Enter a message</label>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="col l12 right-align">
-                                    <div id="success"></div>
-                                    <button type="submit" class="btn waves-effect waves-light">Send Message</button>
+                                <div class="input-field">
+                                    <input type="email" class="validate" name="email" id="email">
+                                    <label for="email" data-error="Not a valid email.">Email</label>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                            <div class="col m6">
+                                <div class="input-field">
+                                    <textarea class="validate materialize-textarea" name="message" id="message"></textarea>
+                                    <label for="message">Enter a message</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn waves-effect waves-light">Send Message</button>
+            <a href="#!" class=" modal-action modal-close waves-effect waves-dark btn-flat">Cancel</a>
+        </div>
+    </div>
 
     <div id="tubular-wrapper"></div>
 

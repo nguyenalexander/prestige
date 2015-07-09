@@ -99,6 +99,9 @@ html.fp-enabled,
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
 }
+#fp-nav.fp-show-active ul li:not(:first-child) a.active + .fp-tooltip {
+    color: black;
+}
 #fp-nav.right {
     right: 17px;
 }
