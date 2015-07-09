@@ -169,6 +169,7 @@ html.fp-enabled,
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+    transition: background 2s;
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
@@ -178,10 +179,10 @@ html.fp-enabled,
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
-    top: -2px;
+    top: -.4em;
     color: #fff;
-    font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-size: 1.25em;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;
@@ -195,6 +196,7 @@ html.fp-enabled,
     transition: opacity 0.2s ease-in;
     width: auto;
     opacity: 1;
+    transition: color 2s;
 }
 #fp-nav ul li .fp-tooltip.right {
     right: 20px;
