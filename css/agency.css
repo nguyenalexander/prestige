@@ -292,7 +292,6 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url(../img/header-bg.jpg);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -661,7 +660,6 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
 }
 
 .team-member h4 {
@@ -891,4 +889,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #05ddcd;
+}
+
+ul.list-inline li {
+    display: inline;
+}
+
+ul.list-inline {
+    list-style-type: none;
 }
