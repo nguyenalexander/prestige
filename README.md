@@ -19,9 +19,11 @@ After changing email address in index.html contact form, remember to send initia
 ##To fix##
 
 + YouTube video background animated fadein could be sped up. I chose a long duration because of the time it takes to load. Ideally, a better video should be chosen that loads fast and doesn't contain annotations.
++ YouTube video doesn't play nice on mobile. Maybe check out [this page.](http://www.smashingmagazine.com/2014/02/27/making-embedded-content-work-in-responsive-design/)
 + Contact button animated colour change is slow when page is scrolled down. Additionally, perhaps have it moved to a different location on the screen after page is scrolled down.
 + CheckPageScroll method in agency.js is not called when navbar links are clicked, or when page is scrolled while pointer is hovered over navbar. This is important because it checks whether the page is at the top of the page, and changes the colour of the navbar elements accordingly.
 + Entire page needs to be responsive.
++ Accommodate when height of section is greater than height of screen, such as on mobile. Check out the fullPage.js docs for this.
 + Form can be spiced up.
 + Styling cleanup: colours, fonts, layout, etc.
 
