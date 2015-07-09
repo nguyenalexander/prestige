@@ -30,6 +30,8 @@ a.waves-effect.waves-dark.btn.modal-trigger {
   right: 1%;
   top: 70%;
   background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0;
 }
 
 .modal {
