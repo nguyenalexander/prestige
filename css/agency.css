@@ -369,18 +369,18 @@ header .intro-text .intro-heading {
     }
 }
 
-section {
+.section {
     padding: 100px 0;
 }
 
-section h2.section-heading {
+.section h3.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
 }
 
-section h3.section-subheading {
-    margin-bottom: 75px;
+.section h4.section-subheading {
+    margin-bottom: 15px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -389,7 +389,7 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
-    section {
+    .section {
         padding: 150px 0;
     }
 }
@@ -914,10 +914,12 @@ body {
     webkit-tap-highlight-color: #05ddcd;
 }
 
-ul.list-inline li {
-    display: inline;
+.list-inline {
+    list-style: none;
 }
 
-ul.list-inline {
-    list-style-type: none;
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
 }
