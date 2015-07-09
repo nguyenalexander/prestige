@@ -161,6 +161,16 @@ img {
   background-color: #05ddcd;
 }
 
+.contact-btn {
+    border: 2px solid black;
+    color: black;
+    margin-right: 10px !important;
+}
+
+textarea.materialize-textarea {
+  min-height: 73px;
+}
+
 /*.btn-primary {
     border-color: #05ddcd;
     text-transform: uppercase;
