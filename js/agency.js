@@ -15,12 +15,14 @@ $(function() {
     fitToSection: false
   });
 
-  // var options = [
-  //   {selector: '.class', offset: 200, callback: 'globalFunction()' },
-  //   {selector: '.other-class', offset: 200, callback: 'globalFunction()' },
-  // ];
+  var options = [
+    {selector: '#services', offset: 0, callback: (function(){
+      $('.modal-trigger').css('border-color', 'black');
+      $('.modal-trigger').css('color', 'black');
+    })}
+  ];
 
-  // Materialize.scrollFire(options);
+  Materialize.scrollFire(options);
 
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
   $('.modal-trigger').leanModal({
