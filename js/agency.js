@@ -6,6 +6,19 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+
+  // upon page scroll, detect when at the top
+  $('#fullpage').on("mousewheel", function() {
+    checkPageScroll();
+  })
+
+  // or upon nav click as well
+  $(".nav-link").on("click", function() {
+    alert("Highlight")
+    checkPageScroll();
+  })
+
+
   $('#fullpage').fullpage({
     navigation: true,
     navigationPosition: 'right',
@@ -33,15 +46,25 @@ $(function() {
     }
   );
 
+  // Highlight the top nav as scrolling occurs
+  // $('body').scrollspy({
+  //     target: '.navbar-fixed-top'
+  // })
+
+  // Closes the Responsive Menu on Menu Item Click
+  $('.navbar-collapse ul li a').click(function() {
+      $('.navbar-toggle:visible').click();
+  });
 });
 
-
-// Highlight the top nav as scrolling occurs
-// $('body').scrollspy({
-//     target: '.navbar-fixed-top'
-// })
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+var checkPageScroll = function() {
+  if ($(".header").hasClass("active")) {
+    $("a.waves-effect.waves-dark.btn.modal-trigger").removeClass("bottom");
+    $("#fp-nav ul li a span, .fp-slidesNav ul li a span").css({background: "#fff"});
+    $(".fp-tooltip").css({color: "#fff"});
+  } else {
+    $("a.waves-effect.waves-dark.btn.modal-trigger").addClass("bottom");
+    $("#fp-nav ul li a span, .fp-slidesNav ul li a span").css({background: "#303030"});
+    $(".fp-tooltip").css({color: "#303030"});
+  }
+}

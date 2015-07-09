@@ -28,10 +28,26 @@ img.logo {
 a.waves-effect.waves-dark.btn.modal-trigger {
   position: absolute;
   right: 1%;
-  top: 70%;
+  top: 92%;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 0;
+}
+
+a.waves-effect.waves-dark.btn.modal-trigger:hover {
+  background-color: #05ddcd;
+}
+
+
+a.waves-effect.waves-dark.btn.modal-trigger.bottom {
+  border: 2px solid #303030;
+  color: #303030;
+}
+
+a.waves-effect.waves-dark.btn.modal-trigger.bottom:hover {
+  background-color: transparent;
+  border: 2px solid #05ddcd;
+  color: #05ddcd;
 }
 
 .modal {
@@ -48,6 +64,16 @@ a.waves-effect.waves-dark.btn.modal-trigger {
   overflow-y: auto;
   border-radius: 2px;
   will-change: top, opacity;
+}
+
+h5 {
+    font-size: 1.24em;
+}
+
+@media(min-width:768px) {
+    h5 {
+        font-size: 1.64em;
+    }
 }
 
 /*CUSTOM CSS END*/
@@ -74,7 +100,7 @@ p.large {
     font-size: 16px;
 }
 
-a,
+/*a,
 a:hover,
 a:focus,
 a:active,
@@ -84,14 +110,14 @@ a.active {
 
 a {
     color: #05ddcd;
-}
+}*/
 
-a:hover,
+/*a:hover,
 a:focus,
 a:active,
 a.active {
     color: #00bdad;
-}
+}*/
 
 h1,
 h2,
@@ -99,7 +125,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -120,7 +145,18 @@ img {
     background-color: #222;
 }
 
-.btn-primary {
+.btn, .btn-large {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #05ddcd;
+}
+
+/*.btn-primary {
     border-color: #05ddcd;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -172,7 +208,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 20px 40px;
     border-color: #05ddcd;
-    border-radius: 3px;
+    border-radius: 2px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -219,7 +255,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
     color: #05ddcd;
     background-color: #fff;
-}
+}*/
 
 .navbar-default {
     border-color: transparent;
@@ -342,7 +378,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -365,7 +401,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 54px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -408,6 +444,7 @@ header .intro-text .intro-heading {
 
 .team-member img {
     margin: 0 auto;
+    border-radius: 2px;
 }
 
 .team-member h4 {
