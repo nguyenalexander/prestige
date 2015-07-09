@@ -695,7 +695,7 @@
                     link = options.anchors[i];
                 }
 
-                var li = '<li><a href="#' + link + '"><span></span></a>';
+                var li = '<li><a class="nav-link" href="#' + link + '"><span></span></a>';
 
                 // Only add tooltip if needed (defined by user)
                 var tooltip = options.navigationTooltips[i];
