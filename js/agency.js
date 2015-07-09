@@ -25,7 +25,8 @@ $(function() {
     navigationTooltips: ['Home', 'Services', 'About'],
     showActiveTooltip: true,
     // scrollOverflow: true,
-    fitToSection: false
+    fitToSection: false,
+    anchors: ['Home', 'Services', 'About']
   });
 
   var options = [
