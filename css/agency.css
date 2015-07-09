@@ -39,7 +39,8 @@ a.waves-effect.waves-dark.btn.modal-trigger {
   right: 0;
   background-color: rgba(255, 255, 235, .99);
   padding: 0;
-  max-height: 90%;
+  min-height: 80%;
+  max-height:85%;
   width: 80%;
   margin: auto;
   overflow-y: auto;
@@ -314,7 +315,6 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url(../img/header-bg.jpg);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -683,7 +683,6 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
 }
 
 .team-member h4 {
@@ -913,4 +912,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #05ddcd;
+}
+
+ul.list-inline li {
+    display: inline;
+}
+
+ul.list-inline {
+    list-style-type: none;
 }
